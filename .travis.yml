@@ -8,9 +8,9 @@ script:
     - node_modules/.bin/jsdoc src
     
 deploy:
-	- provider: pages
-	- skip-cleanup: true
-	- github-token: $token
-	- keep-history: true
-	- local-dir: out
-	- on: branch: master
+- provider: pages
+- skip-cleanup: true
+- github-token: $token
+- keep-history: true
+- local-dir: out
+- on: branch: master
